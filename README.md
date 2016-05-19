@@ -1,4 +1,6 @@
-# Renault-blog
-Blog poświęcony samochodom marki Renault
+# m_blog
+Tutorial blog with Maciej
 
-Na tym blogu będę umieszczał nowości, artykuły, zdjęcia oraz ciekawostki związane z marką Renault.
+Jak zainstalować:
+
+npm install

@@ -1,0 +1,34 @@
+body {
+    background-color: white;
+}
+
+.naglowek {
+    text-align: center;
+
+}
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.posty {
+    font-family: "Arial Black";
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+
+.guzik {
+    font-style: "Arial Black";
+    margin-left:0 ;
+    margin-right: 10px;
+    color: black;
+    border: groove;
+    border-radius: 2px;
+    border-color: #0f0f0f;
+    padding: 4px 12px;
+    text-align: center;
+    background-color: #d58512;
+
+}

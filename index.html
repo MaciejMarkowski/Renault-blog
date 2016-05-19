@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maciej Cińciopa - Moje Renault Megane</title>
+    <link rel="stylesheet" href="app/style.css">
+</head>
+<body ng-app="blog">
+
+<div ng-controller="blogController">
+    <div>
+        <a href="https://www.renault.pl/" target="_blank">
+        <img class="banner" src="C:\Users\Slawek\Desktop\Web\m_blog-master\banner.jpg">
+        </a>
+    </div>
+    <h1 class="naglowek">{{ tytul }}</h1>
+    <div class="posty" ng-repeat="post in posty">
+        {{ post }}
+    </div>
+
+    <input type="text" ng-model="nowyPost">
+    <button class="guzik" ng-click="addPost(nowyPost)">Dodaj post...</button>
+
+</div>
+
+
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="app/app.js"></script>
+</body>
+</html>

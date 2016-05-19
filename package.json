@@ -1,0 +1,32 @@
+{
+  "name": "m_blog",
+  "version": "1.0.0",
+  "description": "blog about Maciek's renault megane",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tomasz-szymanek/m_blog.git"
+  },
+  "keywords": [
+    "renault",
+    "megane",
+    "maciej"
+  ],
+  "author": "Maciej Cińciopa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomasz-szymanek/m_blog/issues"
+  },
+  "homepage": "https://github.com/tomasz-szymanek/m_blog#readme",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
